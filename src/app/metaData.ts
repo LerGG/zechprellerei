@@ -1,11 +1,18 @@
 import { Metadata } from "next";
 
-export const metaData: Metadata = {
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  viewportFit: "cover",
+};
+
+export const metadata: Metadata = {
   title: "ZECHPRELLEREI Vol. I",
   description:
     "VOL. I am 23.08.25 im NEULAND Bochum! START: 18:00uhr | Tim Carry und Proton laden ein... | @ZECHPRELLEREI.DE @neuland_bochum",
   applicationName: "ZECHPRELLEREI",
-  viewport: "width=device-width, initial-scale=1.0",
   alternates: {
     canonical: "https://zechprellerei.de",
   },
