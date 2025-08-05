@@ -1,19 +1,18 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
-export const useAudioPlayer = () => {
-  const [shouldLoad, setShouldLoad] = useState(false);
+export const useAudioPlayer = (url: string) => {
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  const actionPlay = () => {
-    if (!shouldLoad) {
-      setShouldLoad(true);
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.src = url;
+      audioRef.current.load();
     }
-  };
+  }, [url]);
+
   return {
-    actionPlay,
     audioRef,
-    shouldLoad,
   };
 };
