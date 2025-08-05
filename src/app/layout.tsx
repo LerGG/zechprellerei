@@ -2,10 +2,11 @@ import "./globals.css";
 import { FooterSection } from "@/lib/footerSection/FooterSection";
 import { FONT_BEBAS_NEUE } from "@/fonts/bebasNeue";
 import { HeaderSection } from "@/lib/headerSection/HeaderSection";
-import { metaData } from "./metaData";
+import { metadata, viewport } from "./pageMetaData";
 
 // Export needed to apply; see nextjs docs
-export { metaData };
+export { metadata };
+export { viewport };
 
 export default function RootLayout({
   children,
