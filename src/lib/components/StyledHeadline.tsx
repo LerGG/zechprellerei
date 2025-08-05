@@ -12,7 +12,7 @@ export const StyledHeadline = ({ text, rotate }: StyledHeadlineProps) => {
 
   return (
     <div
-      className={`text-4xl font-extrabold uppercase tracking-[0.125rem] drop-shadow-lg tracking-wide ${rotation} text-center `}
+      className={`text-4xl font-extrabold uppercase tracking-[0.125rem] tracking-wide ${rotation} text-center `}
     >
       {text}
     </div>

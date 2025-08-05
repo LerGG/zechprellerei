@@ -12,7 +12,7 @@ export const PeopleSectionItem = ({ people }: PeopleSectionItemProps) => {
       target="_blank"
       rel="noopener noreferrer"
       className="flex justify-center text-base sm:text-lg text-center
-           px-4 py-1
+           px-6 py-1
            sm:px-8 sm:py-4
            rounded-sm border-2 border-white text-white sm:font-bold
            bg-black hover:bg-white hover:underline hover:text-black hover:scale-[0.96]

@@ -26,12 +26,16 @@ export default function LandingPage() {
   return (
     <div className="flex w-full h-full flex-col gap-y-16 items-center justify-center">
       <HeroSection />
-      <div className="w-full h-full max-w-[460px] md:max-w-screen-xl flex flex-col gap-y-16 items-center justify-center px-4">
+      <div className="w-full h-full max-w-[480px]  flex flex-col gap-y-16 items-center justify-center px-2">
         <AudioPlayerSection headline={"Die Hymne"} />
 
         {/** PEOPLE */}
         <PeopleSection headline="Hosts" people={PEOPLE_HOSTS} />
-        <PeopleSection headline="Artists" people={PEOPLE_ARTISTS} />
+        <PeopleSection
+          headline="Artists"
+          people={PEOPLE_ARTISTS}
+          isList={true}
+        />
         <PeopleSection headline="Dj's" people={PEOPLE_DJ} />
         <PeopleSection headline="Soundtechnik" people={PEOPLE_SOUND} />
         <PeopleSection headline="Gastronomieleitung" people={PEOPLE_FOOD} />
