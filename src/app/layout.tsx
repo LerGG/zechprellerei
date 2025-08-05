@@ -2,6 +2,7 @@ import "./globals.css";
 import { FooterSection } from "@/lib/footerSection/FooterSection";
 import { FONT_BEBAS_NEUE } from "@/fonts/bebasNeue";
 import { HeaderSection } from "@/lib/headerSection/HeaderSection";
+import { metadata, viewport } from "./pageMetaData";
 
 // Export needed to apply; see nextjs docs
 export { metadata };
