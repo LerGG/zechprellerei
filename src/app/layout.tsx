@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { FooterSection } from "@/lib/footerSection/FooterSection";
 import { FONT_BEBAS_NEUE } from "@/fonts/bebasNeue";
-import Image from "next/image";
 import { HeaderSection } from "@/lib/headerSection/HeaderSection";
 
 export const metadata: Metadata = {
