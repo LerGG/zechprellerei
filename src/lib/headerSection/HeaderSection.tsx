@@ -6,6 +6,7 @@ export const HeaderSection = () => {
     <div className="flex w-full h-[25vh] bg-black/70 items-center justify-center z-1">
       <Link href="/">
         <Image
+          unoptimized
           src="/img/logo.png"
           alt="logo"
           width="300"

@@ -29,6 +29,7 @@ export const HeroSection = () => {
               width="400"
               height="300"
               style={{ objectFit: "contain" }}
+              unoptimized
             />
           </div>
         </a>
