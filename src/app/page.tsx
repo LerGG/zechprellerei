@@ -36,15 +36,10 @@ export default function LandingPage() {
         <PeopleSection headline="Soundtechnik" people={PEOPLE_SOUND} />
         <PeopleSection headline="Gastronomieleitung" people={PEOPLE_FOOD} />
         <PeopleSection headline="Orga-Team" people={PEOPLE_ORGANISATION} />
+
         {/** EVENT INFO */}
         <LandingPageWelcomeSection />
-        <Image
-          unoptimized
-          height="150"
-          width="150"
-          src="/img/crown.png"
-          alt="logo klein"
-        />
+        <Image height="150" width="150" src="/img/crown.png" alt="logo klein" />
         <StyledHeadlineText>Was euch erwartet:</StyledHeadlineText>
         <TextSection headline="Premiere der Zechprellerei VOL. I:">
           Die erste Ausgabe unserer neuen Event-Reihe, <br />

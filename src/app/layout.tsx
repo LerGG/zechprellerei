@@ -16,9 +16,6 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body className={`${FONT_BEBAS_NEUE.className} antialiased`}>
-        <head>
-          <link rel="icon" href="/favicon.ico" />
-        </head>
         <div className="flex w-full min-h-screen flex-col">
           <HeaderSection />
           {children}
