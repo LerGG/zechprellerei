@@ -16,13 +16,13 @@ export const PeopleSection = ({
   people,
 }: PeopleSectionProps) => {
   return (
-    <div className="flex flex-col gap-y-10 justify-center items-center">
+    <div className="flex flex-col gap-y-10 justify-center items-center w-full">
       <StyledHeadline rotate={rotate} text={headline} />
-      {people.map((people) => (
-        <div key={people.uri}>
-          <PeopleSectionItem key={people.uri} people={people} />
-        </div>
-      ))}
+      <div className={`flex flex-wrap justify-around gap-6 w-full flex-row `}>
+        {people.map((person) => (
+          <PeopleSectionItem key={person.uri} people={person} />
+        ))}
+      </div>
     </div>
   );
 };

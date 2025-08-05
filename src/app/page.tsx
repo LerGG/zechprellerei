@@ -26,7 +26,7 @@ export default function LandingPage() {
   return (
     <div className="flex w-full h-full flex-col gap-y-16 items-center justify-center">
       <HeroSection />
-      <div className="w-full h-full max-w-[460px] md:max-w-screen-xl flex flex-col gap-y-16 items-center justify-center px-4">
+      <div className="w-full h-full max-w-[480px]  flex flex-col gap-y-16 items-center justify-center px-4">
         <AudioPlayerSection headline={"Die Hymne"} />
 
         {/** PEOPLE */}
