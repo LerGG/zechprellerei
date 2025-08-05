@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   description:
     "VOL. I am 23.08.25 im NEULAND Bochum! START: 18:00uhr | Tim Carry und Proton laden ein... | @ZECHPRELLEREI.DE @neuland_bochum",
   applicationName: "ZECHPRELLEREI",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
   alternates: {
     canonical: "https://zechprellerei.de",
   },
